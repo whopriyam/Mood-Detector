@@ -93,7 +93,7 @@ model.add(Dropout(0.2))
 model.add(Dense(1024, activation='relu'))
 model.add(Dropout(0.2))
 
-model.add(Dense(num_labels, activation='softmax'))
+model.add(Dense(num_labels, activation='softmax')) #Softmax because multi-class classification
 
 # model.summary()
 
